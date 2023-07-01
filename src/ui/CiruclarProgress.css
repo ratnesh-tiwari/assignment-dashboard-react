@@ -1,0 +1,23 @@
+.semi {
+  --percentage: 0;
+  --fill: #5c9ce5;
+  width: 170px;
+  height: 85px;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  box-sizing: border-box;
+}
+
+.inner {
+  width: 170px;
+  height: 170px;
+  border: 15px solid;
+  border-color: rgba(0, 0, 0, 0.15) rgba(0, 0, 0, 0.15) var(--fill) var(--fill);
+  position: absolute;
+  border-radius: 50%;
+  left: 0;
+  top: 0;
+}

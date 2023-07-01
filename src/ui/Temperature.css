@@ -1,0 +1,4 @@
+#farhenhite:checked ~ #slide {
+  left: 50%;
+  right: 0;
+}
